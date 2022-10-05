@@ -56,6 +56,9 @@ Task
 
 ### Collaborative Filtering
 
+-   HCFRec: Hash Collaborative Filtering via Normalized Flow with Structural
+Consensus for Efficient Recommendation. IJCAI 2022 [为hash-CF学习最优哈希码]
+
 -   LightGCN: Simplifying and Powering Graph Convolution Network for
     Recommendation. SIGIR 2020
 
@@ -118,6 +121,11 @@ Task
 
 
 ### Sequential/Session-based Recommendations
+
+-   MLP4Rec: A Pure MLP Architecture for Sequential Recommendations. IJCAI 2022 [利用MLP捕捉商品特征中的序列关系]
+
+-   Enhancing Sequential Recommendation with Graph Contrastive Learning. IJCAI 2022 [用于序列推荐的图对比学习]
+
 -   Disentangling Long and Short-Term Interests for Recommendation. WWW 2022 [利用自监督对比学习解耦长短期兴趣]
 
 -   Efficient Online Learning to Rank for Sequential Music Recommendation. WWW 2022 [将搜索空间限制在此前表现不佳的搜索方向的正交补上]
@@ -142,7 +150,6 @@ Graph Structure Learning and Next Interaction Prediction. WWW 2022 [图结构学
 -   Unbiased Sequential Recommendation with Latent Confounders. WWW 2022 [去除潜在混淆变量来实现无偏序列推荐]
 
 -   Re4: Learning to Re-contrast, Re-attend, Re-construct for Multi-interest Recommendation. WWW 2022 [通过re-contrast,re-attend,re-construct来增强解耦用户多兴趣表示]
-
 
 -   Sequential Recommendation with Self-attentive Multi-adversarial
     Network. SIGIR 2020
@@ -406,6 +413,10 @@ Graph Structure Learning and Next Interaction Prediction. WWW 2022 [图结构学
 
 ### POI
 
+-   Modeling Spatio-temporal Neighbourhood for Personalized Point-of-interest Recommendation. IJCAI 2022 [融入知识图谱和时域信息，实现个性化POI推荐]
+
+-   Next Point-of-Interest Recommendation with Inferring Multi-step Future Preferences.IJCAI 2022 [考虑用户未来偏好]
+
 -   HME: A Hyperbolic Metric Embedding Approach for Next-POI
     Recommendation. SIGIR 2020
 
@@ -554,6 +565,10 @@ Topic
 -----
 
 ### Debias in Recommender System
+
+-   Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach. IJCAI 2022 [探索正确的负样本]
+
+-   Towards Resolving Propensity Contradiction in Offline Recommender Learning. IJCAI 2022 [倾向无关的泛化误差边界，并通过对抗学习最小化理论边界]
 
 -   Debiased, Longitudinal and Coordinated Drug Recommendation through Multi-Visit Clinic Records. NIPS 2022 [去偏药物推荐]
 
@@ -929,10 +944,18 @@ Technique
 
 ### Federated Learning in Recommendations
 
+-   Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios. IJCAI 2022 [设计针对基于深度学习的推荐模型的攻击]
+
 -   FedFast Going Beyond Average for Faster Training of Federated
     Recommender Systems. KDD 2020
 
 ### GNN in Recommendations
+
+-   Heterogeneous Interactive Snapshot Network for Review-Enhanced Stock Profiling and Recommendation. IJCAI 2022
+
+-   Self-supervised Graph Neural Networks for Multi-behavior Recommendation. IJCAI 2022 [GNN + 多行为推荐]
+
+-   RecipeRec: A Heterogeneous Graph Learning Model for Recipe Recommendation. IJCAI 2022 [用于食谱推荐的新型异构图学习模型]
 
 -   Graph Convolution Network based Recommender Systems: Learning Guarantee and Item Mixture Powered Strategy. NIPS 2022 [基于图卷积网络的推荐系统：学习保证和商品混合驱动策略]
 
